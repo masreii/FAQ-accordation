@@ -1,0 +1,39 @@
+@media (max-width: 1240px) {
+  .question{
+    font-size: 1rem;
+  }
+
+  .answer{
+    font-size: 0.8rem;
+  }
+
+  .section-FAQ {
+    bottom: -16rem;
+    margin-bottom: 1rem;
+  }
+
+  .faq.active .answer {
+    max-height: 180px;
+  }
+  
+}
+
+@media (max-width: 820px) {
+  .question{
+    font-size: 0.8em;
+  }
+
+  .answer{
+    font-size: 0.65rem;
+  }
+  .faq.active .answer {
+    max-height: 110px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .section-FAQ {
+    bottom: -14rem;
+  }
+}
