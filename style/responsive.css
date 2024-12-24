@@ -15,6 +15,11 @@
   .faq.active .answer {
     max-height: 180px;
   }
+
+  .section-FAQ {
+    bottom: -12rem;
+
+  }
   
 }
 
@@ -30,10 +35,15 @@
     max-height: 110px;
   }
 
+  .section-FAQ {
+    bottom: -12rem;
+  }
+
 }
 
 @media (max-width: 480px) {
   .section-FAQ {
-    bottom: -14rem;
+    bottom: -12rem;
+    width: 85%;
   }
 }
